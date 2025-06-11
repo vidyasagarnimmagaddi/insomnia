@@ -26,14 +26,9 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - os: macos-latest-large
-            build-targets: zip
           - os: windows-latest
             build-targets: portable
-          - os: ubuntu-22.04
-            build-targets: tar.gz
-          - os: ubuntu-22.04-arm
-            build-targets: tar.gz
+
     steps:
       - name: Checkout branch
         uses: actions/checkout@v4
