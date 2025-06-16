@@ -1,4 +1,4 @@
-name: Release Recurring.
+name: Release Recurringg.
 # This workflow bakes executables of the major platforms for Testing purposes
 on:
   merge_group:
